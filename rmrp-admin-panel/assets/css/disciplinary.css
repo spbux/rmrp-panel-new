@@ -1,0 +1,116 @@
+.rmrp-disciplinary {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.rmrp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.rmrp-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.rmrp-stats {
+  display: flex;
+  gap: 12px;
+}
+
+.rmrp-badge {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  background-color: #eee;
+  color: #333;
+}
+
+.rmrp-badge.warning {
+  background-color: #fff4cc;
+  color: #a67c00;
+}
+
+.rmrp-badge.reprimand {
+  background-color: #ffd5d5;
+  color: #a8071a;
+}
+
+.rmrp-entry {
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.rmrp-entry.yellow { background-color: #fff9e4; }
+.rmrp-entry.red    { background-color: #FFDEDE; }
+.rmrp-entry.green  { background-color: #e4fde4; }
+.rmrp-entry.gray {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+
+
+.rmrp-entry .left {
+  flex: 1 1 60%;
+}
+
+.rmrp-entry .left strong {
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 4px;
+  color: #1E2132;
+}
+
+.rmrp-entry .left .reason {
+  font-size: 14px;
+  color: #515451;
+}
+
+.rmrp-entry .right {
+  flex: 1 1 40%;
+  text-align: right;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.meta-block {
+  text-align: right;
+}
+
+.meta-block strong {
+  display: block;
+  font-weight: 700;
+  color: #1E2132;
+  font-size: 14px;
+}
+
+.meta-label {
+  font-size: 14px;
+  color: #515451;
+  margin-top: 2px;
+}
+
+.remove {
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+}
