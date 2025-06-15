@@ -47,6 +47,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/disciplinary-form.php';
 require_once plugin_dir_path(__FILE__) . 'includes/disciplinary-save.php';
 require_once plugin_dir_path(__FILE__) . 'includes/disciplinary-history.php';
 require_once plugin_dir_path(__FILE__) . 'includes/disciplinary-tab.php';
+require_once plugin_dir_path(__FILE__) . 'includes/profile-customization.php';
 
 // Добавление пунктов меню
 add_action('admin_menu', function () {
